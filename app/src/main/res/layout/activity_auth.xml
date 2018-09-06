@@ -16,7 +16,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <EditText
-            android:id="@+id/retext_password"
+            android:id="@+id/atext_password"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
@@ -26,10 +26,10 @@
             android:singleLine="true"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/retext_email" />
+            app:layout_constraintTop_toBottomOf="@+id/atext_email" />
 
         <EditText
-            android:id="@+id/retext_email"
+            android:id="@+id/atext_email"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
@@ -43,7 +43,7 @@
             app:layout_constraintTop_toBottomOf="@+id/text_auth" />
 
         <Button
-            android:id="@+id/button_regist"
+            android:id="@+id/abutton_sign_up"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
@@ -54,14 +54,14 @@
             app:layout_constraintTop_toBottomOf="@+id/rtext_already" />
 
         <Button
-            android:id="@+id/rbutton_sign_up"
+            android:id="@+id/abutton_sign_in"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:text="Sign in"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/retext_password" />
+            app:layout_constraintTop_toBottomOf="@+id/atext_password" />
 
         <TextView
             android:id="@+id/text_auth"
@@ -88,6 +88,6 @@
             android:text="Not yet registered?"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/rbutton_sign_up" />
+            app:layout_constraintTop_toBottomOf="@+id/abutton_sign_in" />
     </android.support.constraint.ConstraintLayout>
 </android.support.constraint.ConstraintLayout>
